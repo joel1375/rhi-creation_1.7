@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Free Hand Creations" content="Custom products made and painted utilizing clay.">
+  <title>Free Hand Creations</title>
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/dd9a97d0e2.js" crossorigin="anonymous"></script>
+  <!-- Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- CONTENT -->
+
+<body>
+  <!-- Navigation Bar Available All the Time -->
+  <div id="mySidebar" class="sidebar mobileOnly">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT</a>
+  <a href="#">PRODUCTS</a>
+</div>
+
+<div id="main" class="mobileOnly">
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+
+  <ul class="desktopOnly">
+    <div class="navigationalBarTop">
+      <a href="index.html"><img class="logoImage" src="images/logo.png" alt=""></a>
+      <a href="#">
+        <li>PRODUCTS</li>
+      </a>
+      <a href="#">
+        <li>ABOUT</li>
+      </a>
+      <a href="#">
+        <li>HOME</li>
+      </a>
+    </div>
+
+  </ul>
+  <section class="mainBody">
+
+
+
+    <!-- VIEWPORT FOR HOME BUTTON -->
+    <section class="homeButton">
+      <section class="topContainer">
+        <img class="logoText" src="images/logotext.png" alt="">
+        <p class="desktopOnly">Las Cruces' best source for custom products, including clay products such as our custom designed ASSH Trays by Rhiannon, and other custom objects such as soaps. Contact for more information and pricing options.</p>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- VIEWPORT FOR PRODUCT BUTTON -->
+    <section class="productButton">
+
+    </section>
+
+
+    <!-- VIEWPORT FOR ABOUT/CONTACT BUTTON -->
+    <section class="aboutButton">
+
+    </section>
+
+  </section>
+  <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+
+</html>
